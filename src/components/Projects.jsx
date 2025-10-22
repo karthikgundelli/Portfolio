@@ -5,10 +5,7 @@ const Projects = () => {
   const projects = [
     {
        title:"FurniFlex – E-commerce Furniture Store",
-      description: "FurniFlex is a fully responsive, modern e-commerce furniture store built with React.js.
-It allows users to browse products, filter by category, search by name, add items to cart, and manage cart quantities.
-The project also features a light/dark theme toggle, a mobile-friendly navbar with hamburger menu, and a professional UI/UX with animations and responsive design.
-This project demonstrates strong React fundamentals, state management using Context API, and front-end development skills, making it resume-ready for job applications." ,
+      description: "FurniFlex is a fully responsive, modern e-commerce furniture store built with React.js.It allows users to browse products, filter by category, search by name, add items to cart, and manage cart quantities.The project also features a light/dark theme toggle, a mobile-friendly navbar with hamburger menu, and a professional UI/UX with animations and responsive design.This project demonstrates strong React fundamentals, state management using Context API, and front-end development skills, making it resume-ready for job applications" ,
        tech:"React.js, React Router DOM, Context API"
       
     },
@@ -41,4 +38,5 @@ This project demonstrates strong React fundamentals, state management using Cont
 };
 
 export default Projects;
+
 
