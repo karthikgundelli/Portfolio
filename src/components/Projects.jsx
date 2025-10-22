@@ -32,7 +32,7 @@ const Projects = () => {
           <div key={index} className="project-card">
             <h3>{proj.title}</h3>
             <p>{proj.description}</p>
-            <a href={proj.link}>click here to preview</a>
+            <a href={proj.link}>click here to preview</a> </br> 
             <small><strong>Tech Stack:</strong> {proj.tech}</small>
           </div>
         ))}
@@ -42,6 +42,7 @@ const Projects = () => {
 };
 
 export default Projects;
+
 
 
 
